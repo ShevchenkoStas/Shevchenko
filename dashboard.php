@@ -65,7 +65,7 @@
 </head>
 <body>
     <header>
-        <h1>Вітаємо, <?php echo htmlspecialchars($user_name); ?>!</h1>
+        <h1>Вітаємо<?php echo htmlspecialchars($user_name); ?>!</h1>
     </header>
     <main>
         <section class="dashboard">
